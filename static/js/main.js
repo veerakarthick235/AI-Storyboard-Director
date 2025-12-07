@@ -1,5 +1,3 @@
-// static/js/main.js
-
 document.addEventListener('DOMContentLoaded', () => {
     const generateBtn = document.getElementById('generateBtn');
     const movieIdeaInput = document.getElementById('movieIdea');
