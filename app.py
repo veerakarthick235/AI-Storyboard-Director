@@ -1,4 +1,3 @@
-# app.py
 import os
 import json
 from flask import Flask, render_template, request, jsonify
@@ -12,7 +11,7 @@ load_dotenv()
 # --- Configuration & Initialization ---
 app = Flask(__name__)
 
-# The genai.Client() automatically uses the GEMINI_API_KEY environment variable.
+
 client = None
 try:
     if not os.getenv("GEMINI_API_KEY"):
