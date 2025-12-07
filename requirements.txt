@@ -1,4 +1,4 @@
-Flask==3.0.3              
-google-genai==0.16.0      
+Flask==3.0.3
+google-genai
 python-dotenv==1.0.1
 gunicorn
